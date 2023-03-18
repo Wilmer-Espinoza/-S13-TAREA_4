@@ -1,0 +1,86 @@
+body{
+    background-image: url('https://cdn.wallpapersafari.com/8/47/tnAMX8.png') ;
+    color:#000000;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:32px;
+}
+.contenedor{
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+  
+}
+.operaciones{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    gap: 5px;
+}
+h1{
+    background: rgba(251, 75, 2, 1);
+    box-shadow: -7px -7px 20px 0px rgba(255, 75, 25, 0.9),
+      -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+      7px 7px 20px 0px rgb(255, 255, 255), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+   border-radius:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:50px;
+}
+.grupo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    display:flex;
+    justify-content:flex-start;
+    gap:10px;
+    height:35px;
+    margin-bottom: 35px;
+}
+.grupo label, button{
+    width:100%;
+    font-size:20px;
+    font-weight:bold;
+}
+.grupo button{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+     background: rgba(251, 75, 2, 1);
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+      -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+      7px 7px 20px 0px rgb(255, 255, 255), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+   border-radius:20px;
+    margin:2px;
+    color:rgb(0, 0, 0);
+   
+    height:45px;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/400/469/73/super-mario-super-mario-bros-video-games-pixel-art-pixels-hd-wallpaper-preview.jpg");
+    cursor: pointer;
+    transition: .5s ease-in-out;  
+    
+}
+.grupo input{
+  display:block;
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+  -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+  7px 7px 20px 0px rgb(255, 255, 255), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+transition: all 0.3s ease;
+  border-radius: 7px;
+  font-size:25px;
+  padding: 25px;
+}
+#iva{
+   display:block;
+   margin-left: -330px;
+   width:40px 
+} 
+textarea{
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+  -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+  7px 7px 20px 0px rgb(255, 255, 255), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    margin-top:20px;
+    width:100%;
+    border-radius: 15px;
+    padding: 10px;
+    font-size:30px;
+    color:#000000;
+    font-weight:bold;
+}

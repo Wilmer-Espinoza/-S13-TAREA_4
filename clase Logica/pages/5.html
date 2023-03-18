@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ventas</title>
+	<link rel="stylesheet" href="../css/page.css">
+	<style>
+	</style>
+</head>
+<body>
+	<section class="contenedor">
+		<h1>TABLA DE MULTIPLICAR</h1>
+		<form action="../index.html">
+			<div class="grupo">
+				<label for="base">Ingrese la base de la tabla de multiplicar:</label>
+		        <input type="number" id="base" name="base" min="1" max="12">
+			</div>
+			<div class="grupo">
+				<button type="button" onclick="generarTabla()">Generar tabla</button>
+				<button type="reset">Limpiar</button>
+				<button type="submit">Regresar</button>
+			</div>
+			<table>
+				<thead>
+					<tr>
+						<th>Número</th>
+						<th>Resultado</th>
+					</tr>
+				</thead>
+				<tbody id="tabla-multiplicar">
+				</tbody>
+			</table>
+		
+			<script src="../js/5.js"></script>
+		</body>
+		</html>
